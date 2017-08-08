@@ -8,9 +8,9 @@
 #
 #
 
-package "mariadb-server"
+package "httpd"
 
-service 'mysqld' do
+service 'httpd' do
   action [:enable, :start]
 end
 
